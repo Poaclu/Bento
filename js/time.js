@@ -18,7 +18,7 @@ function displayClock() {
   // Set to true to use a 12 hour date format
   var format_12hour = false;
 
-  var d = new Date(Date.UTC());
+  var d = new Date();
   var mm = monthNames[d.getMonth()];
   var dd = d.getDate();
   var min = (mins = ('0' + d.getMinutes()).slice(-2));
