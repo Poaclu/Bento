@@ -1,6 +1,6 @@
 // Get the hour
 const today = new Date();
-Date.toLocaleString('fr-FR', {hour: '2-digit',   hour12: false, timeZone: 'Europe/Paris' });
+Date.toLocaleString('fr-FR', {timeZone: 'Europe/Paris' });
 const hour = today.getHours();
 
 // Here you can change your name
