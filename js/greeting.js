@@ -1,5 +1,5 @@
 // Get the hour
-const today =  new getCETDate();
+const today =  new Date();
 const hour = today.getHours();
 
 // Here you can change your name
