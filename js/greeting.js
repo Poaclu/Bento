@@ -1,5 +1,5 @@
 // Get the hour
-const today = getUTCDate();
+const today =  new Date().toLocaleString('en-US', { timeZone: 'Europe/Paris' });
 const hour = today.getHours();
 
 // Here you can change your name
