@@ -1,6 +1,6 @@
 // Get the hour
 const today = new getUTCDate();
-const hour = today.getHours();
+const hour = today.tz(Europe/Paris).getHours();
 
 // Here you can change your name
 const name = ' Luc';
