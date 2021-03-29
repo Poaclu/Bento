@@ -1,4 +1,5 @@
 // Get the hour
+Date.toLocaleString('fr-FR', {hour: '2-digit',   hour12: false, timeZone: 'Europe/Paris' })
 const today = new Date();
 const hour = today.getHours();
 
