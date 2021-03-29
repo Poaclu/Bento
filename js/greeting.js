@@ -1,5 +1,5 @@
 // Get the hour
-const today =  new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
+const today =  new getCETDate();
 const hour = today.getHours();
 
 // Here you can change your name
